@@ -26,5 +26,7 @@ nums_strings.sort()
 
 print('\nSorted num_strings: ',nums_strings)
 nums_ints.sort()
+
 print('\nSorted num_ints: ',nums_ints)
+
 print('\n\nTherefore, Strings are sorted alphabetically while integers are sorted numerically') 
