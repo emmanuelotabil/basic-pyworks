@@ -16,8 +16,10 @@ if user_input in users:
     print('Shipping orders 500 to 1000:            $4.95 each')
     print('Shipping orders over 1000:            $4.80 each')
 
+#Determining price based on number of items to be shipped
     num_items = int(input('\nHow many items will you like to ship?: '))
 
+#Display of final cost
     if num_items <= 100:
         cost = round(5.10*num_items,2)
         print('\nYour total cost is $',cost)
@@ -33,4 +35,5 @@ if user_input in users:
     else:
         cost = round(num_items*4.80)
         print('Your total cost is $',cost)
+
 print('\n\nYour order was done successfully' )
