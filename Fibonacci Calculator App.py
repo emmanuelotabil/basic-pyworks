@@ -11,6 +11,7 @@ for number in fib_num:
     print(number)
 fib_ratio =[]
 
+#Displaying the values 
 print('\n\nThe ratios of the fibonacci numbers are: ')
 
 for n in range(len(fib_num)-1):
