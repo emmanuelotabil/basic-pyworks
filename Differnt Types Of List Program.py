@@ -1,10 +1,11 @@
+#Defining lists
 print('\t\tSummary Table')
 
 nums_strings = ["15","100","55","42"]
 nums_ints = [15,100,55,42]
 nums_floats = [12.3,22.8,1.4,5.2]
 nums_lists = [[1,2,3],[4,5,6],[7,8,9]]
-
+#Summary of each list
 print('The variable nums_strings is a ',type(nums_strings))
 print('It contains the elements ',nums_strings)
 print('the element ',nums_strings[0],' is a ',type(nums_strings[0]))
