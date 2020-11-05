@@ -1,10 +1,13 @@
 
+# Defining list of users
 users = ['James','John','Kate','Celine','Hannah']
 
 print('\t\tHi there! Welcome to the Shipping Account Program')
 
+#Obtaining user input
 user_input = input('\n\nEnter your username: ').capitalize()
 
+#Printing shipping orders
 if user_input in users:
     print('\n\t\tHello ',user_input,',Welcome to your account.')
     print('\n\t\tShipping Prices ')
