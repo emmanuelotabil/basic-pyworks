@@ -1,5 +1,6 @@
 import datetime
 
+#Creating datetime object
 time = datetime.datetime.now()
 month = str(time.month)
 day = str(time.day)
