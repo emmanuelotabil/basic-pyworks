@@ -30,4 +30,4 @@ if user_input in users:
     else:
         cost = round(num_items*4.80)
         print('Your total cost is $',cost)
-print('\n\nYour order was done successfully')
+print('\n\nYour order was done successfully' )
