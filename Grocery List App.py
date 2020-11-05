@@ -17,12 +17,15 @@ print('\n\nYour current date and time is ',time)
 
 print('\nThe items in your grocery are ',food_items)
 
+#Obtaining user inputs
 item = input('\nEnter the name of a food item: ').capitalize()
 food_items.append(item)
 item = input('\nEnter another food item: ').capitalize()
 food_items.append(item)
 item = input('\nEnter a last food item": ').capitalize()
 food_items.append(item)
+
+#printing and sorting list items
 print('\nYour food items are :',food_items)
 food_items.sort()
 
