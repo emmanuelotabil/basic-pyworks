@@ -31,6 +31,7 @@ food_items.sort()
 
 print('\nYour grocery items in alphebetical order is :',food_items)
 
+#simulating Grocery Shopping
 print('\t\tSimulating Grocery Shopping')
 
 
