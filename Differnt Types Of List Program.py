@@ -22,7 +22,7 @@ print('\nThe variable num_lists is a ',type(nums_lists))
 print('It contains the elements ',nums_lists)
 print('The element ',nums_lists[0],' is a ',type(nums_lists[0]))
 
-
+#List sorting
 print('\nNow sorting num_strings and num_ints...')
 nums_strings.sort()
 
