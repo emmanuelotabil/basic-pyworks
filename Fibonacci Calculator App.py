@@ -14,6 +14,7 @@ fib_ratio =[]
 #Displaying the values 
 print('\n\nThe ratios of the fibonacci numbers are: ')
 
+#Obtaining the golden ratios
 for n in range(len(fib_num)-1):
     ratio = fib_num[n+1] / fib_num[n]
     fib_ratio.append(ratio)
