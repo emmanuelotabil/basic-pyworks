@@ -7,8 +7,10 @@ day = str(time.day)
 hour = str(time.hour)
 minute = str(time.minute)
 
+#Initial Items in grocery
 food_items = ['Meat','Cheese']
 
+#Welcome message
 print('\t\tHey there! Welcome to the Grocery List App')
 
 print('\n\nYour current date and time is ',time)
