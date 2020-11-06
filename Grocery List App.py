@@ -50,3 +50,8 @@ item_2 = input('What food item did you just buy?: ').capitalize()
 food_items.remove(item_2)
 
 print(item_2,' has been removed from your grocery list.')
+
+print('\nCurrent grocery has ',len(food_items),' items.')
+print(food_items)
+item_3 = input('What food item did you just buy?: ').capitalize()
+food_items.remove(item_3)
