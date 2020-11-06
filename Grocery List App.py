@@ -38,6 +38,8 @@ print('\t\tSimulating Grocery Shopping')
 print('\nYour current grocery has ',len(food_items),' items')
 
 print(food_items)
+
+#Removing first item
 item_1 = input('What food item did you just buy?: ').capitalize()
 food_items.remove(item_1)
 
@@ -46,6 +48,7 @@ print(item_1,' has been removed from the grocery list.')
 print('\nCurrent grocery has ',len(food_items),' items.')
 print(food_items)
 
+#Removing second item
 item_2 = input('What food item did you just buy?: ').capitalize()
 food_items.remove(item_2)
 
@@ -53,9 +56,12 @@ print(item_2,' has been removed from your grocery list.')
 
 print('\nCurrent grocery has ',len(food_items),' items.')
 print(food_items)
+
+#Removing third item
 item_3 = input('What food item did you just buy?: ').capitalize()
 food_items.remove(item_3)
 
+#Out of items
 print('\nThe grocery has ',len(food_items),' items now. ')
 print(food_items)
 no_item = food_items.pop()
