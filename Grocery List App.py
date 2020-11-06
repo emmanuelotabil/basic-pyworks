@@ -55,3 +55,14 @@ print('\nCurrent grocery has ',len(food_items),' items.')
 print(food_items)
 item_3 = input('What food item did you just buy?: ').capitalize()
 food_items.remove(item_3)
+
+print('\nThe grocery has ',len(food_items),' items now. ')
+print(food_items)
+no_item = food_items.pop()
+
+print('\n\nYour grocery is out of ',no_item,'.')
+new_item = input('What item will you like instead?: ').capitalize()
+food_items.append(new_item)
+
+print('\nHere is what you have left on your grocery list: ')
+print(food_items)
