@@ -60,7 +60,7 @@ print(food_items)
 #Removing third item
 item_3 = input('What food item did you just buy?: ').capitalize()
 food_items.remove(item_3)
-
+ 
 #Out of items
 print('\nThe grocery has ',len(food_items),' items now. ')
 print(food_items)
