@@ -1,4 +1,5 @@
-print('Welcome to the Voter Registration App')
+print('\t\tWelcome to the Voter Registration App')
+print('\t\t\nThis is a program that will simulate registering to vote.')
 
 user_name = input('Enter your nme??').capitalize()
 
