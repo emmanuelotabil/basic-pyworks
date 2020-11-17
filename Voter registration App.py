@@ -29,8 +29,10 @@ if user_age>= 18:
         print('\nKudos ',user_name,', you have joined the ',user_party, ' party')
 
 #Print message for party chosen
-        if user_party =='Republican' or 'Democratic':
+        if user_party =='Republican':
+            print('\nYour selected party is a major party.')
 
+        elif user_party =='Democratic':
             print('\nYour selected party is a major party.')
 
         elif user_party == 'Independent':
@@ -46,5 +48,4 @@ if user_age>= 18:
         print('\nYour chosen party is not listed.')
 
 else:
-
-    print('\nYou are not eligible to vote')
+    print('Sorry'+user_name+', you are not eligible to vote.')
