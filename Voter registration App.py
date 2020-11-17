@@ -29,3 +29,5 @@ if user_age>= 18:
             print('Your party is not a major party.')
     else:
         print('Your chosen party is not listed.')
+else:
+    print('You are not eligible to vote')
