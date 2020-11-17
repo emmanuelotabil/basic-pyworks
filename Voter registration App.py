@@ -27,3 +27,5 @@ if user_age>= 18:
             print('You are an independent person.')
         else:
             print('Your party is not a major party.')
+    else:
+        print('Your chosen party is not listed.')
