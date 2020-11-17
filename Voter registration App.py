@@ -3,7 +3,7 @@ print('\t\t\nThis is a program that will simulate registering to vote.')
 
 user_name = input('\nEnter your name?: ').capitalize()
 
-user_age =  int(input('\nHow old are you?: '))
+user_age =  int(input('\nHey '+user_name+', How old are you?: '))
 
 parties = ['Republican','Democratic','Independent','Libertarian','Green']
 
@@ -25,20 +25,20 @@ if user_age>= 18:
 
         if user_party =='Republican' or 'Democratic':
 
-            print('Your selected party is a major party.')
+            print('\nYour selected party is a major party.')
 
         elif user_party == 'Independent':
 
-            print('You are an independent person.')
+            print('\nYou are an independent person.')
 
         else:
 
-            print('Your party is not a major party.')
+            print('\nYour party is not a major party.')
 
     else:
 
-        print('Your chosen party is not listed.')
+        print('\nYour chosen party is not listed.')
 
 else:
-    
-    print('You are not eligible to vote')
+
+    print('\nYou are not eligible to vote')
