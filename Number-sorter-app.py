@@ -40,9 +40,9 @@ while running:
     for x in odds:
         print('\n-',x)
     
-    user_continue = input('Will you like to continue(y or n): ').lower()
+    user_continue = input('\nWill you like to continue(y or n): ').lower()
     
     if user_continue != 'y':
         running = False
     
-        print('Thank you for using the program.')
+        print('\nThank you for using the program.')
