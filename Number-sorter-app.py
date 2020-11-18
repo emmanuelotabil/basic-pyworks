@@ -14,7 +14,12 @@ while running:
         else:
             odds.append(n)
             print(str(n)+ ' is odd')
-    evens = evens.sort()
-    odds = odds.sort()
+    evens.sort()
+    
+    odds.sort()
     print(evens)
     print(odds)
+    user_continue = input('Will you like to continue(y or n): ').lower()
+    if user_continue != y:
+        running = False
+        print('Thank you for using the program.')
