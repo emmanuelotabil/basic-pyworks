@@ -14,3 +14,7 @@ while running:
         else:
             odds.append(n)
             print(str(n)+ ' is odd')
+    evens = evens.sort()
+    odds = odds.sort()
+    print(evens)
+    print(odds)
