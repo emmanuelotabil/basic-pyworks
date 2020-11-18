@@ -18,6 +18,7 @@ while running:
     
     odds = []
     
+    #Calculate for even/odd number
     for n in numbers_list:
     
         n = int(n)
@@ -32,18 +33,22 @@ while running:
             odds.append(n)
             print('\n-'+str(n)+ ' is odd')
     
+    #Sort list of evens and odds
     evens.sort()
     
     odds.sort()
 
+    #Display even numbers
     print('Below are the even numbers')
     for i in evens:
         print('\n-',i)
 
+    #Display odd numbers
     print('Below are the odd numbers')
     for x in odds:
         print('\n-',x)
     
+    #Determine if user will continue or not
     user_continue = input('\nWill you like to continue(y or n): ').lower()
     
     if user_continue != 'y':
