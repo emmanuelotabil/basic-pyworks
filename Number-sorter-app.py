@@ -2,14 +2,18 @@ print('\t\tWelcome to the Number Sorter App!')
 
 running = True
 
+#Run program with while loop
 while running:
 
+    #Get user input for comma separated values
     numbers_string = input('\nEnter a series of comma separated numbers(,): ')
 
     numbers_string = numbers_string.replace(' ','')
-    
+
+    #convert string to list    
     numbers_list = numbers_string.split(',')
     
+    #initialize list of even/odd numbers
     evens = []
     
     odds = []
