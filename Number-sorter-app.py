@@ -21,18 +21,24 @@ while running:
         if n % 2 == 0:
     
             evens.append(n)
-            print(str(n)+ ' is even')
+            print('\n\t\t-Result/Outcome')
+            print('\n-'+str(n)+ ' is even')
     
         else:
             odds.append(n)
-            print(str(n)+ ' is odd')
+            print('\n-'+str(n)+ ' is odd')
     
     evens.sort()
     
     odds.sort()
-    
-    print(evens)
-    print(odds)
+
+    print('Below are the even numbers')
+    for i in evens:
+        print('\n-',i)
+
+    print('Below are the odd numbers')
+    for x in odds:
+        print('\n-',x)
     
     user_continue = input('Will you like to continue(y or n): ').lower()
     
