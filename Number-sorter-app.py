@@ -1,10 +1,10 @@
-print('Welcome to the Number Sorter App!')
+print('\t\tWelcome to the Number Sorter App!')
 
 running = True
 
 while running:
 
-    numbers_string = input('Enter a series of comma separated numbers: ')
+    numbers_string = input('\nEnter a series of comma separated numbers(,): ')
 
     numbers_string = numbers_string.replace(' ','')
     
