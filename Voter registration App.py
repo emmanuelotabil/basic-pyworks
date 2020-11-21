@@ -1,53 +1,31 @@
-#You are responsible for writing a program that will simulate registering to vote. If a user is 18 or older, your program will present them with a list of potential political parties to register for. Upon choosing a party, your program will confirm that the user has registered and print a specific message depending on the party joined
-
-#Print Welcome message
 print('\t\tWelcome to the Voter Registration App')
 print('\t\t\nThis is a program that will simulate registering to vote.')
 
-#Get user input for name and age
 user_name = input('\nEnter your name?: ').capitalize()
 
-user_age =  int(input('\nHey '+user_name+', How old are you?: '))
+user_age =  int(input('\nHow old are you?: '))
 
-#Define list of parties
 parties = ['Republican','Democratic','Independent','Libertarian','Green']
 
-#First major condition
 if user_age>= 18:
 
     print('\nCongratulations ',user_name, ', you are eligible to vote.')
     
     print('\nThe list of available parties is showm below: ')
-    
-    for p in parties:
-    
+    for p in parties:                                          
         print('-',p)
-
-#Get user input for party they wish to join    
+    
     user_party = input('\nWhat party will you like to join?: ').capitalize()
-
     if user_party in parties:
     
-        print('\nKudos ',user_name,', you have joined the ',user_party, ' party')
-
-#Print message for party chosen
-        if user_party =='Republican':
-            print('\nYour selected party is a major party.')
-
-        elif user_party =='Democratic':
-            print('\nYour selected party is a major party.')
-
+        print('\nKudos ',user_name,'! you have joined the ',user_party, ' party')
+        if user_party =='Republican' or 'Democratic':
+            print('Your selected party is a major party.')
         elif user_party == 'Independent':
-
-            print('\nYou are an independent person.')
-
+            print('You are an independent person.')
         else:
-
-            print('\nYour party is not a major party.')
-
+            print('Your party is not a major party.')
     else:
-
-        print('\nYour chosen party is not listed.')
-
-else:
-    print('Sorry'+user_name+', you are not eligible to vote.')
+        print('Your chosen party is not listed.')
+else: 
+    print('Sorry ',user_name,',You are not eligible to vote.')
