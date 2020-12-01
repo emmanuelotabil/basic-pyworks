@@ -32,5 +32,7 @@ while running:
 
         if guess == game_word:
             print('Congratulations! You won the game in ',guess_count,' tries')
+            break
+        else:
+            print('Your guess is incorrect. I will reveal one of the words at random.')
             
-        break
